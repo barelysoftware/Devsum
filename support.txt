@@ -1,0 +1,92 @@
+#Start
+Nalen tidigare
+Keynote 1 - NAI, x-Microsoft, demos med Kinect, prat om nya Kinect
+Keynote 2 - Wolframs kunskapsspråk - Mathematica, artikel i CS slutet av maj
+
+#2
+4 Azure, 2 Typescript, någon om agila och processer samt om hur man går från tekniker till talare
+Vagrant
+
+Voron-start
+NHibernate, RavenDB och mycket annat
+
+Voron-2
+ha kontroll över lagringsmotorn
+
+
+Voron-3
+LMDB OS-projekt i C++
+
+Voron-5
+Live koda 
+1000000 fysarmband sända data varje halvtimma
+
+Azure-start
+Belgare, Azure MVP
+Checkbox 45 min
+
+Azure-1
+varför CDN 
+lite siffror om samtidiga nedladdningar
+
+Azure-2
+Visa hur man skapar etc
+
+Azure-3
+Släpper objekt efter 7 dagar
+Versioner
+
+AutoFixture-start
+delaktig i utvecklingen av biblioteket
+
+AutoFixture-2
+80% av koden täcks av 20% data
+resten får anpassas
+
+Powershell-start
+Hur många använder Powershell?
+Används mest av tekniker och byggscript
+
+Powershell-1
+Hjälp och exempel inbyggt i Powershell
+Wildcards
+
+Powershell-10
+CERT:
+Visa hjälp
+
+ScriptCS-2
+Öka produktiviten
+Slippa trögheten hos VS
+Använda favorit IDE
+
+ScriptCS-3
+Plattformen
+Roslyn - Microsoft nya kompileringsplattform, inbyggd analysering och lite annat
+NuGet - paket för att installera det som behövs scriptcs -install
+
+ScriptCS-4
+Glenn Block, satt även i publiken, bakom node i Azure
+
+ScriptCS-5 
+Där man startar i ScriptCS
+Bas gjord på 20min, finpustad på 5 timmar pga Roslyn (HerdingCode podcast) 
+
+ScriptCS-6
+scriptcs fil.csx 
+
+ScriptCS-7
+Bootstrapa skript
+Tex WebApi finns som SP
+installeras med scriptcs -install
+
+ScriptCS-8
+Importera SP i script
+
+scriptCS-10
+GAC
+lokala bin-katalogen
+
+TheEnd
+Github
+

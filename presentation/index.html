@@ -1,0 +1,481 @@
+<!doctype html>
+
+<html lang="sv">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Devsum 2014</title>
+    
+    <meta name="description" content="Presentation om sammanfattning om Devsum 2014" />
+    <meta name="author" content="Mathias Frodin" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <!--
+        
+        Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
+        presentation to work.
+        
+        This style below contains styles only for demo presentation. Browse it to see how impress.js
+        classes are used to style presentation steps, or how to apply fallback styles, but I don't want
+        you to use them directly in your presentation.
+        
+        Be creative, build your own. We don't really want all impress.js presentations to look the same,
+        do we?
+        
+        When creating your own presentation get rid of this file. Start from scratch, it's fun!
+        
+    -->
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/shCore.css" type="text/css"/>
+    <link rel="stylesheet" href="css/shThemeEmacs.css" type="text/css"/>
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="start" class="step slide" data-x="-1000" data-y="-2000">
+    	<h1>Devsum 2014</h1>
+    	<ul>
+    		<li>.Net konferens 21-23 maj</li>
+    		<li>Södra teatern, Stockholm</li>
+    		<li>52 dragningar + 2 key notes</li>
+    		<li>Sista dagen workshops</li>
+    	</ul>
+    </div>
+
+    <!--
+        
+        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
+        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
+        
+        So in the example below it'll be `step-2`.
+        
+        The hash part of the url when this step is active will be `#/step-2`.
+        
+        You can also use `#step-2` in a link, to point directly to this particular step.
+        
+        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
+        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
+        
+    -->
+    <div class="step slide" data-x="0" data-y="-2000">
+        <span class="keywords">Natural User Interface</span>
+        <span class="keywords wentTo">Javascript</span>
+        <span class="keywords">xSockets</span>
+        <span class="keywords">AngularJS</span>
+        <span class="keywords">Roslyn</span>
+        <span class="keywords wentTo">FluentSecurity</span>
+        <span class="keywords wentTo">AutoFixture</span>
+        <span class="keywords wentTo">ScriptCS</span>
+        <span class="keywords">CQRS</span>
+        <span class="keywords">Aspect-Orient programming</span>
+        <span class="keywords wentTo">Vagrant</span>
+        <span class="keywords">Visual Studio</span>
+        <span class="keywords wentTo">Windows Universal Apps</span>
+        <span class="keywords">Sass & Compass</span>
+        <span class="keywords">SemVer</span>
+        <span class="keywords wentTo">Big Data</span>
+        <span class="keywords">CI</span>
+        <span class="keywords">Data visualization in HTML5</span>
+        <span class="keywords">Docker.io</span>
+        <span class="keywords wentTo">Windows Azure</span>
+        <span class="keywords wentTo">F#</span>
+        <span class="keywords wentTo">Powershell</span>
+        <span class="keywords">TypeScript</span>
+        <span class="keywords">Elasticsearch, Kibana & Graphite</span>
+        <span class="keywords">Resharper</span>
+        <span class="keywords wentTo">Node.js</span>
+        <span class="keywords">ASP.Net MVC</span>
+    </div>
+
+    <!--
+        
+        This is an example of step element being scaled.
+        
+        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
+        element will be 4 times larger than the others.
+        From presentation and transitions point of view it means, that it will have to be scaled
+        down (4 times) to make it back to its correct size.
+        
+    -->
+    <div id="voron-start" class="step" data-x="3000" data-y="3000" data-z="0" data-rotate="60" data-scale="1">
+		<h2>Tailored database solutions with Voron</h2>
+		<div class="speaker">Ayende Rahien</div>
+    </div>
+
+    <div id="voron-1" class="step" data-x="3000" data-y="3000" data-z="-4000"  data-rotate="60" data-scale="1">
+        <p class="item">Voron = Raven (korp) på ryska</p>
+</div>
+    <div id="voron-2" class="step" data-x="3000" data-y="3000" data-z="-8000"  data-rotate="60" data-scale="1">
+        <p class="item">Kommer att vara ny storage engine för RavenDB istället för ESENT</p>
+</div>
+    <div id="voron-3" class="step" data-x="3000" data-y="3000" data-z="-12000" data-rotate="60" data-scale="1">
+        <p class="item">C# portning av LMDB</p>
+    </div>
+<div id="voron-4" class="step" data-x="3000" data-y="3000" data-z="-16000" data-rotate="60" data-scale="1">
+        <p class="item">Licenserad som RavenDB, öppen för OSS och stängd kommersiellt</p>
+    </div>
+<div id="voron-5" class="step" data-x="3000" data-y="3000" data-z="-20000" data-rotate="60" data-scale="1">
+        <p class="item">100 000 poster på runt sekunden</p>
+    </div>
+
+    <!--
+        
+        And now it gets really exciting! We move into third dimension!
+        
+        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
+        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
+        positioned far away from us (by 3000px).
+        
+    -->
+    <div id="azure-start" class="step" data-x="7000" data-y="7000" data-z="0" data-rotate="120" data-scale="1">
+		<h2>Reducing latency on the web with the Windows Azure CDN</h2>
+		<div class="speaker">Maarten Ballauw</div>
+    </div>
+
+    <div id="azure-1" class="step" data-x="7000" data-y="7000" data-z="-4000"  data-rotate="120" data-scale="1">
+        <a class="item" href="http://browserscope.org/?category=network" target="_new">Browserscope &raquo;</a><br/>
+</div>
+    <div id="azure-2" class="step" data-x="7000" data-y="7000" data-z="-8000"  data-rotate="120" data-scale="1">
+		<a class="item" href="https://manage.windowsazure.com" target="_new">Azure dashboard&raquo;</a>        
+</div>
+    <div id="azure-3" class="step" data-x="7000" data-y="7000" data-z="-12000" data-rotate="120" data-scale="1">
+		<div class="enormous-text">7</div>        
+    </div>
+
+
+	<div id="autofixture-start" class="step" data-x="11000" data-y="11000" data-z="0" data-rotate="180" data-scale="1">
+		<h2>Minimalistic tests with AutoFixture</h2>
+		<div class="speaker">Enrico Campidoglio</div>
+    </div>
+
+    <div id="autofixture-1" class="step" data-x="11000" data-y="11000" data-z="-4000"  data-rotate="180" data-scale="1">
+        <p class="item">Anonymt testdata</p>
+</div>
+    <div id="autofixture-2" class="step" data-x="11000" data-y="11000" data-z="-8000"  data-rotate="180" data-scale="1">
+        <!--<p class="item">1) Ekvivalensklasser</p>
+ 	</div>
+    <div id="autofixture-3" class="step" data-x="11000" data-y="11000" data-z="-12000" data-rotate="180" data-scale="1">
+        <pre class="brush: csharp">
+        	public void Fork(int value){
+        		if (value &gt; 3)
+        		{
+        			// Do this
+        		} 
+        		else
+        		{
+        			// Do that
+        		}
+        	}
+        </pre>
+</div>
+<div id="autofixture-4" class="step" data-x="11000" data-y="11000" data-z="-16000" data-rotate="180" data-scale="1">
+        --><p class="item">Pareto principen</p>
+        <p class="item">80% av effekterna kommer från 20% av orsakerna</p>
+    <!--</div>
+<div id="autofixture-5" class="step" data-x="11000" data-y="11000" data-z="-20000" data-rotate="180" data-scale="1">
+        <p class="item">3) Test Data Builder</p>
+        <p class="item">Factory som skapar objekt i giltiga tillstånd för att bli använda i test</p>
+    --></div>
+
+<div id="autofixture-6" class="step" data-x="11000" data-y="11000" data-z="-12000" data-rotate="180" data-scale="1">
+		<p class="item">Inga magiska värden, inga missförstånd</p>
+		<p class="item">Reducera kopplingar, bara testa det som ska testas</p>
+		<p class="item">Mindre kod att skriva och underhålla i testerna</p>
+	</div>
+<div id="autofixture-7" class="step" data-x="11000" data-y="11000" data-z="-16000" data-rotate="180" data-scale="1">		
+        <p class="item">KOD</p>
+    </div>
+
+	<div id="powershell-start" class="step" data-x="15000" data-y="15000" data-z="0" data-rotate="240" data-scale="1">
+		<h2>Powershell for developers</h2>
+		<div class="speaker">Ido Flatow</div>
+    </div>
+
+    <div id="powershell-1" class="step" data-x="15000" data-y="15000" data-z="-4000"  data-rotate="240" data-scale="1">
+        <p class="item">Viktigaste cmdlets</p>
+        <p class="item">Get-Help (help)</p>
+        <p class="item">Get-Command (gcm)</p>
+        <p class="item">Get-Member (gm)</p>
+	</div>
+    <div id="powershell-2" class="step" data-x="15000" data-y="15000" data-z="-8000"  data-rotate="240" data-scale="1">
+        <p class="header">Verktyg</p>
+        <p class="item">Powershell Command Line</p>
+        <p class="item">Powershell ISE</p>
+        <p class="item">SAPIENS Powershell Studio</p>
+        <div></div>
+	</div>
+    <div id="powershell-3" class="step" data-x="15000" data-y="15000" data-z="-12000" data-rotate="240" data-scale="1">
+        <p class="item">Powershell via .Net</p>
+        <p class="item">.Net via Powershell</p>
+    </div>
+	
+	<div id="powershell-4" class="step" data-x="15000" data-y="15000" data-z="-16000" data-rotate="240" data-scale="1">
+        <p class="item">Powershell för utvecklare</p>
+    </div>
+
+	<div id="powershell-5" class="step" data-x="15000" data-y="15000" data-z="-20000" data-rotate="240" data-scale="1">
+        <p class="item">Arbeta med XML och JSON</p>
+    </div>
+
+    <div id="powershell-6" class="step" data-x="15000" data-y="15000" data-z="-24000" data-rotate="240" data-scale="1">
+        <p class="item">Komma åt systemresurser, registry, filer och certifikat</p>
+    </div>
+
+	<div id="powershell-7" class="step" data-x="15000" data-y="15000" data-z="-28000" data-rotate="240" data-scale="1">
+        <p class="item">Transformera textfiler med RegEx</p>
+    </div>
+<div id="powershell-8" class="step" data-x="15000" data-y="15000" data-z="-32000" data-rotate="240" data-scale="1">
+        <p class="item">Kontrollera plattformar, som IIS, SQL Server och Azure</p>
+    </div>
+
+<div id="powershell-9" class="step" data-x="15000" data-y="15000" data-z="-36000" data-rotate="240" data-scale="1">
+        <p class="item">Interagera med SOAP och REST servicar</p>
+    </div>
+
+<div id="powershell-10" class="step" data-x="15000" data-y="15000" data-z="-40000" data-rotate="240" data-scale="1">
+        <p class="item">EXEMPEL</p>
+    </div>
+
+
+<div id="scriptcs-start" class="step" data-x="20000" data-y="20000" data-z="0" data-rotate="300" data-scale="1">
+		<h2>C# on a diet - a new leaner way to develop</h2>
+		<div class="speaker">Justin Rusbatch</div>
+    </div>
+
+<div id="scriptcs-1" class="step" data-x="20000" data-y="20000" data-z="-4000"  data-rotate="300" data-scale="1">
+        <p class="item">C# som script...?!</p>
+	</div>
+    <div id="scriptcs-2" class="step" data-x="20000" data-y="20000" data-z="-8000"  data-rotate="300" data-scale="1">
+        <p class="item">C# utan Visual Studio</p>
+    </div>
+    <div id="scriptcs-3" class="step" data-x="20000" data-y="20000" data-z="-12000"  data-rotate="300" data-scale="1">
+        <p class="item">ScriptCS + Roslyn + NuGet</p>
+    </div>
+    
+    <div id="scriptcs-4" class="step" data-x="20000" data-y="20000" data-z="-16000" data-rotate="300" data-scale="1">
+        <p class="item">NodeJS + NPM ?</p>
+    </div>
+	
+	<div id="scriptcs-5" class="step" data-x="20000" data-y="20000" data-z="-20000" data-rotate="300" data-scale="1">
+        <p class="item">REPL</p>
+        <p class="item">Read-eval-print loop</p>
+    </div>
+
+	<div id="scriptcs-6" class="step" data-x="20000" data-y="20000" data-z="-24000" data-rotate="300" data-scale="1">
+        <p class="item">Script-filer .csx</p>
+    </div>
+
+    <div id="scriptcs-7" class="step" data-x="20000" data-y="20000" data-z="-30000" data-rotate="300" data-scale="1">
+        <p class="item">Script packs</p>
+    </div>
+<div id="scriptcs-8" class="step" data-x="20000" data-y="20000" data-z="-36000" data-rotate="300" data-scale="1">
+        <p class="item">Require&lt;TScriptPack&gt;</p>
+    </div>
+
+	<div id="scriptcs-9" class="step" data-x="20000" data-y="20000" data-z="-40000" data-rotate="300" data-scale="1">
+        <p class="item">Referera script, #load</p>
+    </div>
+<div id="scriptcs-10" class="step" data-x="20000" data-y="20000" data-z="-44000" data-rotate="300" data-scale="1">
+        <p class="item">Referera dll:er, #r</p>
+    </div>
+
+<div id="scriptcs-11" class="step" data-x="20000" data-y="20000" data-z="-48000" data-rotate="300" data-scale="1">
+        <p class="item">KOD</p>
+    </div>
+
+<div id="theend" class="step slide" data-x="24000" data-y="24000" data-z="360" data-rotate="0" data-scale="1">
+	<p class="header">Länkar</p>
+	<div class="links">
+		<a href="http://devsum.se">DevSum.se</a>
+		<a href="http://www.cornerstone.se/devsum14-presentationer">www.cornerstone.se/devsum14-presentationer</a>
+		<a href="http://ravendb.net">RavenDB.net</a>
+		<a href="http://github.com/autofixture">github.com/autofixture</a>
+		<a href="htp://powershell.org">powershell.org</a>
+		<a href="http://scriptcs.net">scriptcs.net</a>
+	</div>
+</div>
+
+<!-- 
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>want to know more?</p>
+        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>one more thing...</p>
+    </div>
+ -->
+  <!--   <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+        <span class="footnote">* beat that, prezi ;)</span>
+    </div>
+ -->
+    
+</div>
+
+<!-- <div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+ -->
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+
+<script src="js/shCore.js"></script>
+<script src="js/shAutoloader.js"></script>
+
+<script type="text/javascript">
+
+SyntaxHighlighter.autoloader(
+	'c# c-sharp csharp		/js//shBrushCSharp.js',
+	'js jscript javascript	/js/shBrushJScript.js'
+);
+
+
+SyntaxHighlighter.all();
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<script src="http://js.leapmotion.com/leap-0.5.0.min.js"></script>
+
+<script type="text/javascript">
+var controllerOptions = {enableGestures: true};
+
+Leap.loop(controllerOptions, function(frame) {
+
+	var imp = impress();
+
+  if (frame.gestures.length > 0) {
+    for (var i = 0; i < frame.gestures.length; i++) {
+      var gesture = frame.gestures[i];
+
+      if (gesture.type == "swipe") {
+          //Classify swipe as either horizontal or vertical
+              if(gesture.direction[1] < 0){
+                  imp.next();
+              } else {
+                  imp.prev();
+              }
+          }
+       }
+     }
+  
+
+});
+</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->
+

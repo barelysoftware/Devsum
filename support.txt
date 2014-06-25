@@ -87,6 +87,10 @@ scriptCS-10
 GAC
 lokala bin-katalogen
 
+scriptcs-11
+elastic search kod från bloggen
+installera NEST
+
 TheEnd
 Github
 
